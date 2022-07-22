@@ -4,11 +4,13 @@ import Services from "./Services"
 import Header from "./Header"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import Team from "./Team"
  function Home() {
   return (
     <div>
         <Header/>
         <About/>
+        <Team/>
         <Services/>
         <Contact/>
         <Footer/>
