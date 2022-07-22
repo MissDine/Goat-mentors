@@ -62,7 +62,37 @@ body{
     background-size: cover;
 }
 .web{
-    background-image: url("../src/web-design.jpg");
+    /* background-image: url("../src/web-design.jpg"); */
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.Dig{
+    /* background-image: url("../src/marketing.jpg"); */
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.Des{
+    /* background-image: url("../src/marketing.jpg"); */
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.Gra{
+    /* background-image: url("../src/marketing.jpg"); */
     background-position: center;
     height: 250px;
     width: 300px;
@@ -94,7 +124,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
-span{
+h3{
     font-size: 1rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
