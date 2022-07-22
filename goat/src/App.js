@@ -6,6 +6,7 @@ import About from "./components/About"
 import Services from "./components/Services"
 import Header from "./components/Header"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 // npx json-server --watch data/db.json --port 8000-to use the json server
 function App() {
@@ -22,11 +23,12 @@ function App() {
       <Route exact path = "/contact" component={Contact}></Route>
       </Routes>
       <Header/>
-      <hr></hr>
+      {/* <hr></hr> */}
       <About/>
       <Services/>
-      <hr></hr>
+      {/* <hr></hr> */}
       <Contact/>
+      <Footer/>
     </div>
     </Router>
   );
