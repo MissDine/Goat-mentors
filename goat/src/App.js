@@ -4,9 +4,7 @@ import "./index.css"
 // npx json-server --watch data/db.json --port 8000-to use the json server
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <div className="App"></div>
   );
 }
 
