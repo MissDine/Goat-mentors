@@ -54,7 +54,9 @@ body{
     scroll-snap-type: y proximity;
 }
 .header{
-    background-image: url("/goat/src/bg.jpg");
+    background-image: url("../src/bg.jpg");
     background-position: center;
-    
+    height: 600px;
+    /* width: 1024px; */
+    background-size: cover;
 }

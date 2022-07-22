@@ -13,7 +13,6 @@ const Navbar = () => {
                 <Link className = "link" to="/services">Services</Link>
                 <Link className = "link" to="/contact">Contact</Link>
                 <Link className = "link" to="/login">Login</Link>
-                {/* <button className = "btn">Login</button> */}
             </div>
             </>
             
