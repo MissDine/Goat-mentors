@@ -50,3 +50,11 @@
     height: 100px;
     left: 100%;
 }
+body{
+    scroll-snap-type: y proximity;
+}
+.header{
+    background-image: url("/goat/src/bg.jpg");
+    background-position: center;
+    
+}
