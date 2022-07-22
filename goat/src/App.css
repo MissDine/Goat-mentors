@@ -31,14 +31,15 @@
 }
 .btn{
     border: none;
-    background:#Ef8D01;
-    padding: 12px 30px;
-    border-radius: 25px;
+    background:#F4773A;
+    padding: 12px 15px;
+    border-radius: 5px;
     color:whitesmoke;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
+    margin-left: 10%;
 
 }
 .btn:hover{
@@ -59,4 +60,46 @@ body{
     height: 600px;
     /* width: 1024px; */
     background-size: cover;
+}
+.web{
+    background-image: url("../src/web-design.jpg");
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.head{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: whitesmoke;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* margin-left: 10%; */
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #Ef8D01;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span{
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
