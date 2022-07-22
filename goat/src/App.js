@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About"
 import Services from "./components/Services"
 import Header from "./components/Header"
+import Contact from "./components/Contact"
 
 // npx json-server --watch data/db.json --port 8000-to use the json server
 function App() {
@@ -18,11 +19,14 @@ function App() {
       <Route exact path = "/header" component={Header}></Route>
       <Route exact path = "/about" component={About}></Route>
       <Route exact path = "/services" component={Services}></Route>
+      <Route exact path = "/contact" component={Contact}></Route>
       </Routes>
       <Header/>
       <hr></hr>
       <About/>
       <Services/>
+      <hr></hr>
+      <Contact/>
     </div>
     </Router>
   );
