@@ -27,8 +27,8 @@ function App() {
       <Header/>
       {/* <hr></hr> */}
       <About/>
-      <Team/>
       <Services/>
+      <Team/>
       {/* <hr></hr> */}
       <Contact/>
       <Footer/>

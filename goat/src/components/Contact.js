@@ -6,7 +6,7 @@ const Contact = () => {
     const HandleSubmit = (e)=>{
         e.preventDefault();
         const conta = {name, message,email}
-        fetch("http://localhost:9000/conta", {
+        fetch("http://localhost:9000/messages", {
             method: "POST",
             headers: {"content-type":"application/json"},
             body:JSON.stringify(conta)
