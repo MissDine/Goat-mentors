@@ -7,7 +7,7 @@ const Contact = () => {
         e.preventDefault();
         const conta = {name, message,email}
         // console.log(blog);
-        fetch("http://localhost:8000/", {
+        fetch("http://localhost:9000/conta", {
             method: "POST",
             headers: {"content-type":"application/json"},
             body:JSON.stringify(conta)
