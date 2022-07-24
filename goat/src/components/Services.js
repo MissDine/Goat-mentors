@@ -1,8 +1,9 @@
 import React from 'react'
-import web from "../web-design.jpg"
-import mark from "../marketing.jpg"
-import des from "../ui_ux.png"
-import gra from "../graph.jpg"
+import web from "../images/web-design.jpg"
+import mark from "../images/marketing.jpg"
+import des from "../images/ui_ux.png"
+import gra from "../images/graph.jpg"
+// import gra from "../graph.jpg"
 
 function Services() {
   return (
