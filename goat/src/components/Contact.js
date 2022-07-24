@@ -4,6 +4,7 @@ const Contact = () => {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
     const HandleSubmit = (e)=>{
+        // console.log("mess");
         e.preventDefault();
         const conta = {name, message,email}
         fetch("http://localhost:9000/messages", {
@@ -40,8 +41,9 @@ const Contact = () => {
                 value= {message}
                 onChange = {(e)=>setMessage(e.target.value)}
                 ></textarea>
+                <button className="send" type="submit">Send</button>
             </form>
-            <button className="send">Send</button>
+            
         </div>
     );
 }
