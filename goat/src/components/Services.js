@@ -8,8 +8,8 @@ import gra from "../images/graph.jpg"
 function Services() {
   return (
     <div>
-    <div className="serv">
     <h1>Our Service</h1>
+    <div className="serv">
         <img className='web' src={web} alt="web design"/>
         <h3>Web Design</h3>
         <img className='Dig' src={mark} alt="marketing" />

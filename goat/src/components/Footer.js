@@ -2,16 +2,16 @@ import React from 'react'
 import face from "../images/icons8-facebook-48.png"
 import twi from "../images/icons8-twitter-48.png"
 import linke from "../images/icons8-linkedin-48.png"
-// import logo from "../images/logo.png"
+import logo from "../images/logo.png"
 
 function Footer() {
   return (
     <div className='footer'>
-      {/* <img src={logo} alt="logo" /> */}
       <div className="soc">
-        <img src={face} alt="facebook" />
-        <img src={linke} alt="linkedin" />
-        <img src={twi} alt="twitter" />
+      <img className='logoo' src={logo} alt="logo" />
+        <img className='social' src={face} alt="facebook" />
+        <img className='social' src={linke} alt="linkedin" />
+        <img className='social' src={twi} alt="twitter" />
       </div>
     </div>
   )

@@ -177,6 +177,8 @@ h2{
     display: block;
     width: 100%;
     height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 label{
     font-size: 1rem;
@@ -229,6 +231,8 @@ form{
     width: 2px;
     margin-bottom: 10px;
     padding: 0 8px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .button{
     border: none;
@@ -242,4 +246,30 @@ form{
 }
 .button:hover{
     background-color: #555;
+}
+.soc {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.logoo{
+    width: 120px;
+    height: 120px;
+    /* margin-left: 5%; */
+    margin-top: 2.5%;
+}
+.social{
+    width: 120px;
+    height: 120px;
+    right: 100%;
+    align-items: center;
+    margin-top: 1%;
+    justify-content:right;
+}
+.serv{
+    display: block;
+    width: 100%;
+    height: auto;
 }
