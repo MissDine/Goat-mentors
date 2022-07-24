@@ -7,7 +7,8 @@ import gra from "../graph.jpg"
 function Services() {
   return (
     <div>
-        <h1>Our Service</h1>
+    <div className="serv">
+    <h1>Our Service</h1>
         <img className='web' src={web} alt="web design"/>
         <h3>Web Design</h3>
         <img className='Dig' src={mark} alt="marketing" />
@@ -16,6 +17,7 @@ function Services() {
         <h3>Ui-Ux Design</h3>
         <img className='Gra' src={gra} alt="Graphical design" />
         <h3>Graphic Design</h3>
+    </div>
     </div>
   )
 }
