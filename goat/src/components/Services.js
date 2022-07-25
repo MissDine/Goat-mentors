@@ -7,17 +7,25 @@ import gra from "../images/graph.jpg"
 
 function Services() {
   return (
-    <div>
+    <div className='serv' id='services'>
     <h1>Our Service</h1>
-    <div className="serv">
-        <img className='web' src={web} alt="web design"/>
-        <h3>Web Design</h3>
-        <img className='Dig' src={mark} alt="marketing" />
+    <div className="column">
+    <div className="row">
+      <img className='web' src={web} alt="web design"/>
+      <h3>Web Design</h3>
+    </div>
+    <div className="row">
+      <img className='Dig' src={mark} alt="marketing" />
         <h3>Digital marketing</h3>
-        <img className='Des' src={des} alt="ui-ux design" />
+    </div>
+    <div className="row">
+      <img className='Des' src={des} alt="ui-ux design" />
         <h3>Ui-Ux Design</h3>
-        <img className='Gra' src={gra} alt="Graphical design" />
+    </div>
+    <div className="row">
+      <img className='Gra' src={gra} alt="Graphical design" />
         <h3>Graphic Design</h3>
+    </div>
     </div>
     </div>
   )

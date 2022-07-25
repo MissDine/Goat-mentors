@@ -3,43 +3,43 @@ import TeamCard from './TeamCard'
 
 function Team() {
   return (
-    <div>
+    <div className='serv' id='team'>
         <h1>Our Team</h1>
-        <div className="row">
+        <div className="column">
           <TeamCard
             name = "Alio"
             title = "C.E.O & Founder"
             about = "Lorem Ipsum"
             email = "alio@example.com"
-            photo = "https://source.unsplash.com/random/400*200"
+            photo = "https://images.pexels.com/photos/12576758/pexels-photo-12576758.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
           />
           <TeamCard
             name = "Enid"
             title = "Developer"
             about = "Lorem Ipsum"
             email = "enid@example.com"
-            photo = "https://source.unsplash.com/random/400*200"
+            photo = "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGljdHVyZXMlMjBvZiUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
           <TeamCard
             name = "David"
             title = "Developer"
             about = "Lorem Ipsum"
             email = "david@example.com"
-            photo = "https://source.unsplash.com/random/400*200"
+            photo = "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGhvdG9zJTIwb2YlMjBwZW9wbGUlMjBtZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           />
           <TeamCard
             name = "Kevin"
             title = "Developer"
             about = "Lorem Ipsum"
             email = "kevin@example.com"
-            photo = "https://source.unsplash.com/random/400*200"
+            photo = "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGhvdG9zJTIwb2YlMjBwZW9wbGUlMjBtZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           />
           <TeamCard
             name = "Ashira"
             title = "Developer"
             about = "Lorem Ipsum"
             email = "ashira@example.com"
-            photo = "https://source.unsplash.com/random/400*200"
+            photo = "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGhvdG9zJTIwb2YlMjBwZW9wbGUlMjBtZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           />
         </div>
     </div>

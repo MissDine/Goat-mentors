@@ -7,8 +7,8 @@ import logo from "../images/logo.png"
 function Footer() {
   return (
     <div className='footer'>
-      <div className="soc">
       <img className='logoo' src={logo} alt="logo" />
+      <div className="soc">
         <img className='social' src={face} alt="facebook" />
         <img className='social' src={linke} alt="linkedin" />
         <img className='social' src={twi} alt="twitter" />

@@ -180,6 +180,11 @@ h2{
     margin-left: 10%;
     margin-right: 10%;
 }
+.card-image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
 label{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -212,7 +217,8 @@ input{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    width: 20%;
 }
 form{
     display: flex;
@@ -226,13 +232,19 @@ form{
     /* width: 1024px; */
     background-size: cover;
 }
+.row{
+    margin: 4px 10px;
+    width: 30%;
+}
 .column{
     /* float: left; */
-    width: 2px;
+    /* width: 2px; */
     margin-bottom: 10px;
     padding: 0 8px;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .button{
     border: none;
@@ -261,15 +273,18 @@ form{
     margin-top: 2.5%;
 }
 .social{
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     right: 100%;
     align-items: center;
     margin-top: 1%;
     justify-content:right;
 }
 .serv{
-    display: block;
-    width: 100%;
-    height: auto;
+    margin: 20px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
 }
