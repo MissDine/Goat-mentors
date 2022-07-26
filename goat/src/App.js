@@ -25,11 +25,9 @@ function App() {
       <Route exact path = "/team" component={Team}></Route>
       </Routes>
       <Header/>
-      {/* <hr></hr> */}
       <About/>
       <Services/>
       <Team/>
-      {/* <hr></hr> */}
       <Contact/>
       <Footer/>
     </div>
