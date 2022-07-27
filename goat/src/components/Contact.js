@@ -19,7 +19,7 @@ const Contact = () => {
     }
     return (
         <div className="cont" id="contact">
-            <h1 className="con">Contact Us</h1>
+            <h1 className="con" id = "topics">Contact Us</h1>
             <form onSubmit={HandleSubmit}>
                 <label>Name</label>
                 <input

@@ -3,10 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-@media screen and (max-width: 650px){
-    .column {
-        Width: 100%;
-        display: block;
+#topics{
+margin-left: 200px;
+}
+.serv > p{
+    margin-left: 220px;
+}
+@media only screen and (max-width: 650px){
+    .serv > .column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .row{
+        width: 0px;
+    }
+    .App{
+        display: grid;
+    }
+    .header > .head{
+        padding-top: 15px;
+    }
+    .cont > .con{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    form > textarea, form > input{
+        width: auto;
+    }
+    #topics{
+        margin-left: 50px;
     }
 }
 .card{
@@ -144,8 +172,8 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: #Ef8D01;
-    margin-left: 40%;
-    margin-right: 40%;
+    /* margin-left: 40%;
+    margin-right: 40%; */
 }
 p{
     margin-left: 10%;
@@ -178,7 +206,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: whitesmoke;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-right: 40%;
 }
 .image{

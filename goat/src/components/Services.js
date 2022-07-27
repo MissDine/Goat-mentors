@@ -8,7 +8,7 @@ import gra from "../images/graph.jpg"
 function Services() {
   return (
     <div className='serv' id='services'>
-    <h1>Our Service</h1>
+    <h1 id = "topics">Our Service</h1>
     <div className="column">
     <div className="row">
       <img className='web' src={web} alt="web design"/>
