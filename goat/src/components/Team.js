@@ -11,7 +11,7 @@ function Team() {
             title = "C.E.O & Founder"
             about = "Lorem Ipsum"
             email = "alio@example.com"
-            photo = "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGhvdG9zJTIwb2YlMjBwZW9wbGUlMjBtZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            photo = "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx"
           />
           <TeamCard
             name = "Enid"
