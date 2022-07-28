@@ -222,8 +222,8 @@ h2{
 }
 .card-image{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
 }
 label{
     font-size: 1rem;
