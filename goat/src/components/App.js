@@ -1,13 +1,13 @@
-import "./App.css"
+import "../App.css"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom" ;
-import Navbar from './components/Navbar';
-import Home from "./components/Home";
-import About from "./components/About"
-import Services from "./components/Services"
-import Header from "./components/Header"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Team from "./components/Team"
+import Navbar from './Navbar';
+import Home from "./Home";
+import About from "./About"
+import Services from "./Services"
+import Header from "./Header"
+import Contact from "./Contact"
+import Footer from "./Footer"
+import Team from "./Team"
 
 // npx json-server --watch data/db.json --port 8000-to use the json server
 function App() {

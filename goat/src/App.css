@@ -34,7 +34,7 @@ margin-left: 200px;
         width: auto;
     }
     #topics{
-        margin-left: 50px;
+        margin-left: 20%;
     }
 }
 .card{
@@ -121,6 +121,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+    border-radius: 20px;
 }
 .Dig{
     /* background-image: url("../src/marketing.jpg"); */
@@ -131,6 +132,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+    border-radius: 20px;
 }
 .Des{
     /* background-image: url("../src/marketing.jpg"); */
@@ -141,6 +143,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+    border-radius: 20px;
 }
 .Gra{
     /* background-image: url("../src/marketing.jpg"); */
@@ -151,6 +154,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+    border-radius: 20px;
 }
 .head{
     font-size: 3rem;
@@ -259,6 +263,7 @@ input{
 form{
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 
 }
 .footer{
@@ -324,3 +329,9 @@ form{
     justify-content: space-between;
     padding: 0 25px;
 }
+#topics{
+    margin-left: 23%;
+}
+/* .abou{
+    margin-left: 0px;
+} */
